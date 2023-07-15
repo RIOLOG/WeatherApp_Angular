@@ -11,7 +11,7 @@ export class CommonService {
 
   getWeatherData(city:string):Observable<any>{
     var  headers={
-      'X-RapidAPI-Key': 'e05c1a89a3mshf708f7bfb4278b4p12adeajsndc1210356642',
+      'X-RapidAPI-Key': 'Your_Api_Key',
       'X-RapidAPI-Host': 'openweather43.p.rapidapi.com'
     }
     var q = city;
